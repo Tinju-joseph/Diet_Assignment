@@ -17,6 +17,8 @@ import FilterScreen from '../Search/FilterScreen';
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 
+//Home tabbar icon
+
 const MyTabs = () => {
   return (
     <Tab.Navigator

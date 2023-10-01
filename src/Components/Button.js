@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, Text, TouchableOpacity, StyleSheet, Image} from 'react-native';
 
+//common button
+
 const Button = props => {
   const styles = StyleSheet.create({
     button: {

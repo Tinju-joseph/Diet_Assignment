@@ -13,6 +13,8 @@ import InputText from '../Components/InputText';
 import Button from '../Components/Button';
 import {register} from '../api/AuthApi';
 
+//sign up detail component
+
 const SignUpDetailScreen = ({navigation, route}) => {
   const [isChecked, setIsChecked] = useState(false);
   const [isPasswordVisible, setPasswordVisible] = useState(false);
@@ -28,11 +30,14 @@ const SignUpDetailScreen = ({navigation, route}) => {
     setIsChecked(!isChecked);
   };
 
+  //check email contains @gmail.com
+
   const checkEmailValid = email => {
     const validEmail = /\b[A-Za-z0-9._%+-]+@gmail\.com\b/;
     return validEmail.test(email);
   };
 
+  //signup validation
   const verifySignUp = async () => {
     if (firstName && lastName && email && password && checkEmailValid(email)) {
       setIsLoading(true);

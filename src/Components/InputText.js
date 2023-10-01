@@ -7,6 +7,8 @@ import {
   Image,
 } from 'react-native';
 
+//TextInput
+
 const InputText = props => {
   return (
     <View style={styles.textInputContainer}>

@@ -2,6 +2,8 @@
 import React from 'react';
 import {View, StyleSheet, Text, Image, TouchableOpacity} from 'react-native';
 
+// small container for home screen
+
 const TipsContainer = props => {
   return (
     <TouchableOpacity style={styles.container}>

@@ -7,6 +7,7 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+// common search container takes input
 const SearchInputContainer = props => {
   return (
     <View style={styles.inputContainer}>

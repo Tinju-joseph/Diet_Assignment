@@ -11,6 +11,8 @@ import {
 import {createMaterialTopTabNavigator} from '@react-navigation/material-top-tabs';
 import SearchInputContainer from './SearchInputContainer';
 
+// Search page Top Tab bar
+
 const Tab = createMaterialTopTabNavigator();
 
 const data = [

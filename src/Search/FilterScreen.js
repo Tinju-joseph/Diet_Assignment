@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 
+//filter screen
+
 const FilterScreen = ({navigation}) => {
   return (
     <View style={styles.main_Container}>

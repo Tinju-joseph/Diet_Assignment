@@ -2,6 +2,7 @@ import React from 'react';
 import {View, Text, StyleSheet, Image, TouchableOpacity} from 'react-native';
 import SearchContainer from '../Components/SearchContainer';
 
+// Eat screen when click on eat bottom tab icon
 const EatScreen = ({navigation}) => {
   return (
     <View style={styles.main_Container}>

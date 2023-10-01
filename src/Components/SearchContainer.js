@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, StyleSheet, Image, Text, TouchableOpacity} from 'react-native';
 
+//common search container
+
 const SearchContainer = props => {
   return (
     <TouchableOpacity style={styles.inputContainer} onPress={props.onPress}>

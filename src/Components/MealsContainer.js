@@ -1,6 +1,8 @@
 import React from 'react';
 import {View, StyleSheet, Text, Image, TouchableOpacity} from 'react-native';
 
+// container for the home screen
+
 const MealsContainer = props => {
   return (
     <View style={styles.container}>

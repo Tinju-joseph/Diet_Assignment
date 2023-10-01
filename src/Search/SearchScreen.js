@@ -2,6 +2,8 @@ import React from 'react';
 import {View, Text, StyleSheet, TouchableOpacity, Image} from 'react-native';
 import TopTabScreen from '../Components/TopTabBar';
 
+// main search screen
+
 const SearchScreen = ({navigation}) => {
   return (
     <View style={styles.main_Container}>

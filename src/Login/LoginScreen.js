@@ -8,6 +8,8 @@ import {
 } from 'react-native';
 import Button from '../Components/Button';
 
+//main login screen with signup, login, skip buttons
+
 const LoginScreen = ({navigation}) => {
   return (
     <View style={styles.main_container}>

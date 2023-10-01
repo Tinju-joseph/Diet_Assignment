@@ -18,7 +18,7 @@ const SignUpScreen = ({navigation}) => {
     const validEmail = /\b[A-Za-z0-9._%+-]+@gmail\.com\b/;
     return validEmail.test(email);
   };
-
+  // email validation
   const verifyEmail = () => {
     if (checkEmailValid(email)) {
       navigation.navigate('SignUpDetails', {userEmail: email});

@@ -12,6 +12,8 @@ import InputText from '../Components/InputText';
 import Button from '../Components/Button';
 import {login} from '../api/AuthApi';
 
+// Login screen component
+
 const SignInScreen = ({navigation}) => {
   const [isPasswordVisible, setPasswordVisible] = useState(false);
   const [password, setPassword] = useState('');
@@ -22,6 +24,8 @@ const SignInScreen = ({navigation}) => {
     const validEmail = /\b[A-Za-z0-9._%+-]+@gmail\.com\b/;
     return validEmail.test(email);
   };
+
+  // login validation
 
   const loginVerify = async () => {
     if (email && password && checkEmailValid(email)) {
